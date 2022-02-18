@@ -5,6 +5,7 @@ put them into SVM classification, and then analyzed the voting results after the
 
 data, code and models are publicly available at https://pan.baidu.com/s/1AaAvIB67zUSgGZGrJ4gIeQ?pwd=8888  
 Extraction Code： 8888
+
 The code of the experiment is performed using Matlab 2021b, and the experimental environment consists of Intel(R) Core(TM) i5-8500 CPU with an NVIDIA GeForce RTX 2060 GPU.
 It is recommended to run the program line by line. Double-click on the .mat file in the file to manually load the data into the workspace
 The whole procedure flow is as follows: read data → divide the dataset → set training parameters and train the network → segment the dataset and verify the accuracy → extract features with network layers into svm for training → classify the dataset and evaluate the accuracy. The classification results of 2010, 2015 and 2019 were obtained after repeating three times, and the three classification results of the study area were monitored for dynamic land use changes.
